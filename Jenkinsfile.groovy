@@ -1,6 +1,6 @@
 node {
         stage('Checkout') {
-                           git branch: 'master', url: 'https://github.com/Dbshiva/war-web-project-master.git'
+                           git branch: 'master', url: 'https://github.com/Dbshiva/spring-boot-war-example.git'
                            echo 'Checked out data'
         }
         stage('Test') {
